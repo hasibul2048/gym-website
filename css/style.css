@@ -15,7 +15,7 @@
     width: 100vw;
 }
 
-.pg1-content{
+.pg1-content, .pg3-wraper{
     height: 100%;
     width: 100%;
     background-color: rgba(66, 25, 25, 0.849);
@@ -64,7 +64,6 @@ nav{
     height: 200px;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     flex-direction: column;
     color: #fff;
     font-size: 2rem;
@@ -103,7 +102,11 @@ nav{
     color: black;
 }
 
+
+
 /* page 2 css */
+
+
 
 .page2{
     height: 100vh;
@@ -174,3 +177,53 @@ nav{
     font-size: 1.7rem;
 }
 
+
+
+/* page 3 css */
+
+
+.page3{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://img.freepik.com/free-photo/3d-gym-equipment_23-2151114163.jpg?size=626&ext=jpg&ga=GA1.1.1224184972.1713312000&semt=ais);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.pg3-wraper{
+    color: #fff;
+}
+
+.pg3-wraper h1{
+    font-size: 2rem;
+    margin: 70px;
+}
+
+.pg3-wraper p{
+    height: 40%;
+    width: 80%;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+
+.pg3-wraper button{
+    height: 50px;
+    width: 160px;
+    background: transparent;
+    color: #fff;
+    border: none;
+    border: 1px solid white;
+    margin-top: 7px;
+    font-size: 1.3em;
+    font-weight: 100;
+    letter-spacing: 0.09rem;
+    cursor: pointer;
+}
+
+.pg3-wraper button:hover{
+    background-color: #fff;
+    color: black;
+}
