@@ -119,7 +119,7 @@ nav{
 }
 
 
-.pg2-wrapper{
+.pg2-wrapper, .pg4-wraper{
     height: 100%;
     width: 100%;
     background-color: #07081bd0;
@@ -152,7 +152,6 @@ nav{
     flex-direction: column;
     height: 300px;
     width: 300px;
-   
     margin: 0px 20px;
     gap: 10px;
 
@@ -171,6 +170,7 @@ nav{
 
 .pg2-cont p{
     text-align: center;
+    color: #dbd7d7;
 }
 
 .pg2-cont h3{
@@ -185,7 +185,7 @@ nav{
 .page3{
     height: 100vh;
     width: 100vw;
-    background-image: url(https://img.freepik.com/free-photo/3d-gym-equipment_23-2151114163.jpg?size=626&ext=jpg&ga=GA1.1.1224184972.1713312000&semt=ais);
+    background-image: url(https://media.istockphoto.com/id/1427221641/photo/man-training-with-battle-rope-in-gym-gym.jpg?b=1&s=170667a&w=0&k=20&c=Ur2vfzd-M3BjDRQzSm5jRInvgIkJ4gajULDr-cr7WQQ=);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -204,6 +204,7 @@ nav{
 .pg3-wraper p{
     height: 40%;
     width: 80%;
+    color: #dbd7d7;
     text-align: center;
     font-size: 1.3rem;
     font-weight: 100;
@@ -227,3 +228,129 @@ nav{
     background-color: #fff;
     color: black;
 }
+
+
+
+/* page 4 css */
+
+
+.page4{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://img.freepik.com/free-photo/3d-gym-equipment_23-2151114163.jpg?size=626&ext=jpg&ga=GA1.1.1224184972.1713312000&semt=ais);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+
+.pg4-cont-wraper{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.pg4-wraper h1{
+    font-size: 2.2rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    overflow-y: hidden;
+    object-fit: cover;
+}
+
+.pg4-cont{
+    height: 500px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pg4-cont h3{
+    font-size: 1.4rem;
+    padding: 9px;
+}
+
+.pg4-cont img{
+    height: 350px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+
+/* page 5 css */
+
+
+.page5{
+    height: 100vh;
+    width: 100vw;
+    background-color: #190124;
+    display: flex;
+}
+
+.pg5-left{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+
+.pg5-left img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    /* overflow: hidden; */
+}
+
+.pg5-right{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pg5-right h1{
+    color: #fff;
+}
+
+.input{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.input input{
+    height: 50px;
+    width: 500px;
+    margin: 30px;
+    border: none;
+    color: black;
+    border-radius: 4px;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(224, 43, 43);
+}
+
+.input textarea{
+    height: 100px;
+    width: 500px;   
+    margin: 30px;
+    border: none;
+    color: black;
+    border-radius: 4px;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(224, 43, 43);
+}
+
