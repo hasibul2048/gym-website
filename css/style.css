@@ -2,13 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden; 
+    font-family: Poppins, sans-serif;
 }
 
 .page1{
     background-image: url(https://i0.wp.com/goldsgym.in/wp-content/uploads/2023/12/compress-strong-man-training-gym-min-scaled.jpg?fit=2560%2C1707&ssl=1);
     background-repeat: no-repeat;
     background-size: cover;
-    
+    background-attachment: fixed;
     height: 100vh;
     width: 100vw;
 }
@@ -34,6 +36,7 @@ nav{
     text-transform: uppercase;
     padding: 30px 50px;
     cursor: pointer;
+    overflow-y: hidden; 
 }
 
 .navright{
@@ -99,3 +102,75 @@ nav{
     background-color: #fff;
     color: black;
 }
+
+/* page 2 css */
+
+.page2{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://st2.depositphotos.com/1017228/7108/i/450/depositphotos_71080145-stock-photo-gym-interior-with-equipment.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+
+.pg2-wrapper{
+    height: 100%;
+    width: 100%;
+    background-color: #07081bd0;
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pg2-h{
+    font-size: 1.5rem;
+    margin-top: 60px;
+}
+
+.pg2-h :hover{
+    color: rgb(224, 43, 43);
+}
+
+.pg2-cont-wrap{
+    display: flex;
+    flex-direction: row;
+    margin-top: 75px;
+    
+}
+
+.pg2-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+   
+    margin: 0px 20px;
+    gap: 10px;
+    /* border: 3px solid red; */
+}
+
+.pg2-cont :hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.pg2-cont i{
+    font-size: 80px;
+    overflow-y: hidden;
+    color: rgb(224, 43, 43);
+}
+
+.pg2-cont p{
+    text-align: center;
+}
+
+.pg2-cont h3{
+    font-size: 1.7rem;
+}
+
