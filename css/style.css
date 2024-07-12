@@ -210,25 +210,6 @@ nav{
     font-weight: 100;
 }
 
-.pg3-wraper button{
-    height: 50px;
-    width: 160px;
-    background: transparent;
-    color: #fff;
-    border: none;
-    border: 1px solid white;
-    margin-top: 7px;
-    font-size: 1.3em;
-    font-weight: 100;
-    letter-spacing: 0.09rem;
-    cursor: pointer;
-}
-
-.pg3-wraper button:hover{
-    background-color: #fff;
-    color: black;
-}
-
 
 
 /* page 4 css */
@@ -306,7 +287,7 @@ nav{
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
-    /* overflow: hidden; */
+    
 }
 
 .pg5-right{
@@ -322,17 +303,18 @@ nav{
     color: #fff;
 }
 
-.input{
+.input-box{
     height: 90%;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 
 }
 
-.input input{
+.input {
     height: 50px;
     width: 500px;
     margin: 30px;
@@ -340,17 +322,51 @@ nav{
     color: black;
     border-radius: 4px;
     background-color: transparent;
-    border-bottom: 2px solid rgb(224, 43, 43);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    color: #fff;
 }
 
-.input textarea{
-    height: 100px;
-    width: 500px;   
-    margin: 30px;
-    border: none;
-    color: black;
-    border-radius: 4px;
-    background-color: transparent;
-    border-bottom: 2px solid rgb(224, 43, 43);
+.input::placeholder{
+    color:#dbd7d7;
+  }
+
+
+  /* footer section css */
+
+  footer{
+    height: 100vh;
+    width: 100vw;
+    
+  }
+
+
+.ftr-up{
+    height: 50%;
+    width: 100%;
+    background-color:  #0b0110;
+    display: flex;
+    justify-content: space-evenly;
 }
 
+.ftr{
+    height: 200px;
+    width: 200px;
+    color: #fff;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.ftr i{
+    color: #fff;
+    font-size: 50px;
+    overflow-y: hidden;
+    padding-bottom: 19px;
+}
+
+
+.ftr-down{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-weight: 600;
+}
